@@ -1,0 +1,30 @@
+
+.search{
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+}
+.buttons{
+    margin-left: 38rem;
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    width: 7rem;
+}
+.big{
+    background-color: #C4C4C4;
+    height: 10rem;
+    width: 18rem;
+    margin: 1rem;
+}
+.small{
+    background-color: white;
+    border: 1px solid white;
+    color: #C4C4C4;
+    border-radius: 4rem;
+    height:3rem;
+    width: 3rem;
+    margin-left:7rem;
+    margin-top: 3.5rem;
+    font-size: 2rem;
+}

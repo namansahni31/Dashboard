@@ -1,24 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-
+import HeaderComponent from './Components/Headers/HeaderComponent';
+// import Sidenav from './Components/Sidenav/Sidenav';
+// import Loading from './Components/Loading.js';
+// import Loaders from "./Components/Loaders.js";
+ import Loading2 from './Components/Loading2';
+import Loading3 from './Components/Loading3';
+import Sidenav from './Components/Sidenav/Sidenav';
+// import Main from './Components/MainComponent/Main';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <HeaderComponent/>
+    <Sidenav/>
+    </>
   );
 }
 

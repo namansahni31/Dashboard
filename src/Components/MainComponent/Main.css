@@ -1,0 +1,15 @@
+.heading{
+    margin-left:1rem
+}
+.buttonss{
+    margin: 1rem;
+    height: 2rem;
+    width: 7rem;
+    border-radius: 2rem;
+    border: 1px solid #473BB1;
+    background-color: white;
+}
+.buttonss:hover{
+    background-color:#473BB1;
+    color: white;
+}

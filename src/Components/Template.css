@@ -1,0 +1,61 @@
+.cardss,.overlay2{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+   
+}
+.overlay2{
+    background-color:lightgray;
+    /* opacity: 0.9; */
+}
+.content2{
+    /* display: flex; */
+    /* margin-top: 1rem; */
+    display: flex;
+    text-align: center;
+   margin: 7rem;
+   /* width: 70rem; */
+    line-height: 1.5;
+    background:lightgray;
+    color:black;
+}
+.close1{
+    position: absolute;
+    top:10px;
+    right:10px;
+    background-color: white;
+    color: black;
+    border:1px solid white;
+    border-radius: 1rem;
+}
+.btnss{
+    background-color: orangered;
+    color: white;
+    border: 1px solid orangered;
+    width: 10rem;
+    height: 2rem;
+    margin-top: 2rem;
+    border-radius: 0.25rem;
+}
+.head{
+    position: absolute;
+    top:2rem;
+    left:33rem;
+}
+.bottom{
+    position: absolute;
+    bottom:3rem;
+    left:37rem;
+}
+.bt{
+    /* background-color: orangered; */
+    color:orangered;
+    border: 1px solid orangered;
+    width: 13rem;
+    height: 2rem;
+    margin-top: 0.5rem;
+}
