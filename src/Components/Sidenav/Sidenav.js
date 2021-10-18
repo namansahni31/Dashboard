@@ -14,14 +14,15 @@ import ListItemText from '@mui/material/ListItemText';
 import InboxIcon from '@mui/icons-material/MoveToInbox';
 import MailIcon from '@mui/icons-material/Mail';
 import image from "../../images/pexels.jpg";
+import { Link } from 'react-router-dom';
 import './Sidenav.css';
 import Main from '../MainComponent/Main';
 import Mainbody from '../MainComponent/Mainbody';
 import SettingsIcon from '@mui/icons-material/Settings';
-import Carousel from '../Carousel';
-import Template from '../Template';
+import Addteam from '../Addteam';
+import Template from '../MainComponent/Template';
+// import Template from '../MainComponent/Template';
 // import { useState } from 'react';
-
 
 const drawerWidth = 300;
 
@@ -60,11 +61,13 @@ const Sidenav=()=>{
         </div>
         <div className='inpt'>
         <button>Edit Your Profile</button>
+        <Link to="/addteam">
         <button onClick={handleEnable}>Add team(Upto 5 memebrs)</button>
+        </Link>
         </div>
-        {enable && (
+        {/* {enable && (
           <Template handle={handleEnable}/>
-        )}
+        )} */}
         <button className='btns'>Upgrade Subscription plan</button>
         <SettingsIcon style={{marginTop:'6rem',marginLeft:'1rem'}}/>
       </Drawer>

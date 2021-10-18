@@ -1,5 +1,11 @@
+/* .cmmn{ */
+    /* float: left; */
+    /* display: block; */
+/* } */
 .heading{
-    margin-left:1rem
+    /* margin-left: 1rem; */
+    float: left;
+    /* margin-right:50rem; */
 }
 .buttonss{
     margin: 1rem;

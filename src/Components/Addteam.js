@@ -1,6 +1,7 @@
 import React from 'react';
 import CloseIcon from '@mui/icons-material/Close';
-const Carousel=(props)=>{
+import "./Addteam.css";
+const Addteam=(props)=>{
     return(
         <>
      <div className='enable'>
@@ -17,8 +18,7 @@ const Carousel=(props)=>{
               </div>
               <h5>Want to add more members?<span style={{color:'#473BB1'}}>Upgrade subscription plan</span></h5>
               <button className='buton'>Send Invitation</button>
-              <h5><span style={{color:'#473BB1',alignSelf:'center'}}>Skip this step</span></h5>
-              {/* <button className='close' onClick={props.handle}>Close</button> */}
+              <h5><span style={{color:'#473BB1',marginLeft:'1.5rem'}}>Skip this step</span></h5>
               <CloseIcon className='close' onClick={props.handle}/>
               </div>
             </div>
@@ -26,4 +26,4 @@ const Carousel=(props)=>{
    </>
     )
    }
-export default Carousel;
+export default Addteam;

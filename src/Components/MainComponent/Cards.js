@@ -4,7 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { Button, CardActionArea, CardActions } from '@mui/material';
-import img from '../images/d.png';
+import img from '../../images/d.png';
 
 const Cards = ()=>{
     return(
@@ -13,7 +13,8 @@ const Cards = ()=>{
            <CardActionArea>
         <CardMedia
           component="img"
-          height="250"
+          height="190"
+          color='black'
           image={img}
           alt="space"
         />

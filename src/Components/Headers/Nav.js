@@ -29,9 +29,9 @@ const Nav=()=>{
         <Box sx={{ flexGrow: 1 }}>
      <AppBar position="static" style={{backgroundColor:'#333333',height:'4rem'}}>
         <Toolbar>
-        <Typography sx={{ flexGrow: 1 }}>
+        {/* <Typography sx={{ flexGrow: 1 }}> */}
             <img src={Icon1}  />
-          </Typography>
+          {/* </Typography> */}
           <Box >
           <IconButton
         id="basic-button"
@@ -39,7 +39,8 @@ const Nav=()=>{
         aria-haspopup="true"
         aria-expanded={open ? 'true' : undefined}
         onClick={handleClick}
-        color="inherit">
+        color="inherit"
+        style={{float:'right'}}>
         <Badge  color="secondary" >
          <NotificationsIcon />
         </Badge>

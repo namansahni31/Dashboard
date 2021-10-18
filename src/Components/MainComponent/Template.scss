@@ -1,0 +1,35 @@
+.cardss,.overlay2{
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+   
+}
+.overlay2{
+    background-color:lightgray;
+}
+.content2{
+    text-align: center;
+    background:lightgray;
+    color:black;
+}
+.close1{
+    position: absolute;
+    top:10px;
+    left:10px;
+    background-color:lightgray;
+    color: black;
+
+}
+.bt{
+    color:orangered;
+    border: 1px solid orangered;
+    width: 13rem;
+    height: 2rem;
+}
+.bottoms{
+    top:0;
+}
